@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chemical Supplies</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2 class="text-center mt-5">Chemical Supplies</h2>
+
+        <br>
+        <br>
+        <div class="toolbar">
+            <button id="addRow" class="btn btn-primary mr-2"><i class="fas fa-plus"></i> </button>
+            <button id="moveUp" class="btn btn-secondary mr-2"><i class="fas fa-arrow-up"></i> </button>
+            <button id="moveDown" class="btn btn-secondary mr-2"><i class="fas fa-arrow-down"></i></button>
+            <button id="deleteRow" class="btn btn-danger mr-2"><i class="fas fa-trash"></i> </button>
+            <button id="refreshData" class="btn btn-warning mr-2"><i class="fas fa-sync"></i></button>
+            <button id="saveData" class="btn btn-success mr-2"><i class="fas fa-save"></i></button>
+        </div>
+
+        <table id="chemicalTable" class="table table-hover">
+            <thead>
+                <tr>
+                    <th><i class="fas fa-check-square"></i></th>
+                    <th>ID</th>
+                    <th>Chemical Name</th>
+                    <th>Vendor</th>
+                    <th>Density (g/m³)</th>
+                    <th>Viscosity (m²/s)</th>
+                    <th>Packaging</th>
+                    <th>Pack Size</th>
+                    <th>Unit</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
