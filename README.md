@@ -9,3 +9,5 @@ This is a web-based application, having the capabilities of managing chemical su
 5. Save Data: It saves the modified data to localStorage.
 6. Refresh Table: Refreshes the table by eliminating all unsaved changes and reloads data from localStorage.
 7. Persistent Data: It automatically loads data from localStorage when the page gets loaded and saves all the modifications done by the user.
+
+Website : https://slothushka.github.io/Chemical-Management-Application/
